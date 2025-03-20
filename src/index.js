@@ -98,7 +98,7 @@ const w = window.innerWidth;
 const h = window.innerHeight;
 
 const scene = new Scene();
-const camera = new PerspectiveCamera(75, w / h, 0.1, 100);
+const camera = new PerspectiveCamera(60, w / h, 0.1, 100);
 const renderer = new WebGLRenderer({ antialias: true });
 const controls = new OrbitControls(camera, renderer.domElement);
 
